@@ -1,0 +1,7 @@
+set scrolloff=5
+set incsearch
+map Q gq
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+" inoremap kj <Esc>
+inoremap kj <Esc>

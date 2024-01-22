@@ -1,2 +1,7 @@
-Hello World
- 2134123412
+## 相关软件配置
+
+* vim
+* NeoVim
+* yabai
+* skhd
+* zsh
