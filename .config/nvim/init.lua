@@ -1,7 +1,8 @@
--- vim.keymap.set(<mode>, <key>, <action>, <opts>)
-vim.keymap.set('i', 'kj', '<Esc>', { noremap = true })
-vim.keymap.set('n', 'S', ':wq<CR>', { noremap = true })
-vim.keymap.set("i", '{<CR>', '{}<Esc>i<CR><Esc>ko', { noremap = true })
+local map = vim.api.nvim_set_keymap
+-- map(<mode>, <key>, <action>, <opts>)
+map('i', 'kj', '<Esc>', { noremap = true })
+map('n', 'S', ':wq<CR>', { noremap = true })
+map("i", '{<CR>', '{}<Esc>i<CR><Esc>ko', { noremap = true })
 -- 启用行号和相对行号
 vim.wo.number = true
 vim.wo.relativenumber = true
